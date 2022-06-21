@@ -10,7 +10,11 @@ saludo = "Hola Mundo";
 
 let saludo1 = "Hola Mundo"; */
 
-let nombre = prompt("Ingrese su Nombre");
+/* let nombre = prompt("Ingrese su Nombre");
 let edad = prompt("Ingrese su Edad");
 console.log("Nombre: " + nombre + " de " + edad + " Años");
-alert("Bienvendi@ " + nombre);
+alert("Bienvendi@ " + nombre); */
+
+if(1 == 1){
+console.log("entra al if");
+}
