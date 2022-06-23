@@ -15,6 +15,16 @@ let edad = prompt("Ingrese su Edad");
 console.log("Nombre: " + nombre + " de " + edad + " Años");
 alert("Bienvendi@ " + nombre); */
 
-if(1 == 1){
-console.log("entra al if");
-}
+//Entregable 1
+let genera = document.getElementById("genera");
+let borrar = document.getElementById("borrar");
+let numero = document.getElementById("num");
+let lienzo = document.getElementById("multi");
+let contenido = document.getElementById("contenido");
+
+genera.addEventListener("click", () => {
+  for (let i = 1; i <= 10; i++) {
+    lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value * i} <br />`;
+  }
+});
+
